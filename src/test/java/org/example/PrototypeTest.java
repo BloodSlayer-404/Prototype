@@ -1,6 +1,6 @@
-package org.example.equipment;
+package org.example;
 
-import org.example.Zombie;
+import org.example.equipment.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -40,7 +40,7 @@ class PrototypeTest {
 
     /**
      * Test if the clone method of {@link Helmet} class returns an object with a different memory
-     * number and the same attributes values
+     * direction and the same attributes values
      */
     @Test
     void cloneBoots() {
@@ -54,7 +54,7 @@ class PrototypeTest {
 
     /**
      * Test if the clone method of {@link Chesplate} class returns an object with a different memory
-     * number and the same attributes values
+     * direction and the same attributes values
      */
     @Test
     void cloneChestplate() {
@@ -68,7 +68,7 @@ class PrototypeTest {
 
     /**
      * Test if the clone method of {@link Helmet} class returns an object with a different memory
-     * number and the same attributes values
+     * direction and the same attributes values
      */
     @Test
     void cloneHelmet() {
@@ -82,7 +82,7 @@ class PrototypeTest {
 
     /**
      * Test if the clone method of {@link Leggings} class returns an object with a different memory
-     * number and the same attributes values
+     * direction and the same attributes values
      */
     @Test
     void cloneLeggings() {
@@ -96,7 +96,7 @@ class PrototypeTest {
 
     /**
      * Test if the clone method of {@link Weapon} class returns an object with a different memory
-     * number and the same attributes values
+     * direction and the same attributes values
      */
     @Test
     void cloneWeapon() {
@@ -110,7 +110,7 @@ class PrototypeTest {
 
     /**
      * Test if the clone method of {@link Zombie} class returns an object with a different memory
-     * number and the same attributes values.
+     * direction and the same attributes values.
      * <p>
      * If it has objects as attributes, test that those attributes are also clones.
      */

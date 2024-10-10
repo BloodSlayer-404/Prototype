@@ -15,8 +15,8 @@ public class Leggings implements Prototype<Leggings> {
     private int durability;
 
     /**
-     * Returns the memory number of the object that calls the method
-     * @return The memory number of the object
+     * Returns the memory direction of the object that calls the method
+     * @return The memory direction of the object
      */
     public String getMemoryDirection(){
         return  Integer.toHexString(System.identityHashCode(this));
